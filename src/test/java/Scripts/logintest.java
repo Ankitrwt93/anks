@@ -33,7 +33,16 @@ public class logintest extends baseLib{
 			String username = eu.readData("sheet1", 2, 1);
 			System.out.println("Username is: "+username);
 			String password = eu.readData("sheet1", 2, 2);
-			System.out.println("Password is: "+password);
+			System.out.println("Password1 is: "+password);
+			System.out.println("Password2 is: "+password);
+			System.out.println("Password3 is: "+password);
+			System.out.println("Password4 is: "+password);
+			System.out.println("Password2 is: "+password);
+			System.out.println("Password3 is: "+password);
+			System.out.println("Password4 is: "+password);
+			System.out.println("Password2 is: "+password);
+			System.out.println("Password3 is: "+password);
+			System.out.println("Password4 is: "+password);
 			loginfeature lf=new loginfeature(driver);
 			lf.invalidlogin(username, password);
 			
