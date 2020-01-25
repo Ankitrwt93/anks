@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched and http://127.0.0.1/login.do is navigated]]>
+    </line>
+    <line>
+      <![CDATA[homepage(Enter Title track) is verifiedSat Jan 18 17:42:11 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+    <line>
+      <![CDATA[Chrome launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched and http://127.0.0.1/login.do is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Invalid login message is verifiedSat Jan 18 17:42:19 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21863" started-at="2020-01-18T17:41:59 IST" finished-at="2020-01-18T17:42:20 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21863" started-at="2020-01-18T17:41:59 IST" finished-at="2020-01-18T17:42:20 IST">
+      <class name="Scripts.logintest">
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String)[pri:0, instance:Scripts.logintest@1a968a59]" name="precondition" is-config="true" duration-ms="4909" started-at="2020-01-18T17:41:59 IST" finished-at="2020-01-18T17:42:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome launched]]>
+            </line>
+            <line>
+              <![CDATA[Browser launched and http://127.0.0.1/login.do is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="validLogin()[pri:1, instance:Scripts.logintest@1a968a59]" name="validLogin" duration-ms="7292" started-at="2020-01-18T17:42:03 IST" description="verify validlogin" finished-at="2020-01-18T17:42:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[homepage(Enter Title track) is verifiedSat Jan 18 17:42:11 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:Scripts.logintest@1a968a59]" name="postcondition" is-config="true" duration-ms="688" started-at="2020-01-18T17:42:11 IST" finished-at="2020-01-18T17:42:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String)[pri:0, instance:Scripts.logintest@1a968a59]" name="precondition" is-config="true" duration-ms="4119" started-at="2020-01-18T17:42:11 IST" finished-at="2020-01-18T17:42:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome launched]]>
+            </line>
+            <line>
+              <![CDATA[Browser launched and http://127.0.0.1/login.do is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="InvalidLogin()[pri:2, instance:Scripts.logintest@1a968a59]" name="InvalidLogin" duration-ms="3670" started-at="2020-01-18T17:42:16 IST" description="verify invalidlogin" finished-at="2020-01-18T17:42:19 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid login message is verifiedSat Jan 18 17:42:19 IST 2020]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:Scripts.logintest@1a968a59]" name="postcondition" is-config="true" duration-ms="1121" started-at="2020-01-18T17:42:19 IST" finished-at="2020-01-18T17:42:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Scripts.logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
